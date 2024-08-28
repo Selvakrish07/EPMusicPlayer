@@ -25,12 +25,12 @@ load_dotenv()
 
 class Config:
     def __init__(self) -> None:
-        self.API_ID: str = os.environ.get("API_ID", None)
-        self.API_HASH: str = os.environ.get("API_HASH", None)
+        self.API_ID: str = os.environ.get("24424253", None)
+        self.API_HASH: str = os.environ.get("85e62f082fa4509a1d1c45cc88318a15", None)
         self.SESSION: str = os.environ.get("SESSION", None)
-        self.BOT_TOKEN: str = os.environ.get("BOT_TOKEN", None)
+        self.BOT_TOKEN: str = os.environ.get("6819168405:AAGq8lSPK0wgeJac4U9kK7xNVk8-p4IZOno", None)
         self.SUDOERS: list = [
-            int(id) for id in os.environ.get("SUDOERS", " ").split() if id.isnumeric()
+            int(id) for id in os.environ.get("@Soupboy_single", "@vallavan31 ").split() if id.isnumeric()
         ]
         if not self.SESSION or not self.API_ID or not self.API_HASH:
             print("ERROR: SESSION, API_ID and API_HASH is required!")
