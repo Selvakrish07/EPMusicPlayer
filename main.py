@@ -37,7 +37,7 @@ from core import (
 
 
 REPO = """
-🤖 **Music Player**
+🤖 **EP Music Player**
 
 - Repo: [GitHub](https://github.com/AsmSafone/MusicPlayer)
 - License: AGPL-3.0-or-later
@@ -45,10 +45,10 @@ REPO = """
 
 if config.BOT_TOKEN:
     bot = Client(
-        "MusicPlayer",
-        api_id=config.API_ID,
-        api_hash=config.API_HASH,
-        bot_token=config.BOT_TOKEN,
+        "EP MusicPlayer",
+        api_id=config.24424253,
+        api_hash=config.85e62f082fa4509a1d1c45cc88318a15,
+        bot_token=config.6819168405:AAGq8lSPK0wgeJac4U9kK7xNVk8-p4IZOno,
         in_memory=True,
     )
     client = bot
